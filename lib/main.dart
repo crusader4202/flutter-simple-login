@@ -53,7 +53,7 @@ class _State extends State<App> {
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
                       labelText: 'E-mail',
-                      hintText: 'Input-email',
+                      hintText: 'Enter email',
                     ),
                   ),
                 ),
@@ -75,7 +75,7 @@ class _State extends State<App> {
                   style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.blue,
                       padding:
-                          EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                          EdgeInsets.symmetric(horizontal: 55, vertical: 15),
                       textStyle:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.bold)),
                 ),
